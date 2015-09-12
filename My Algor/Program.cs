@@ -13,6 +13,7 @@ namespace My_Algor
         {
 
             QuickSort.QuickSortTest();
+
             Console.ReadLine();
         }
 
