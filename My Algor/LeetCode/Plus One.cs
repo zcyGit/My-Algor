@@ -18,7 +18,7 @@ namespace My_Algor.LeetCode
             {
                 digits[i] = digits[i] + one;
 
-                if (digits[i] < 9)
+                if (digits[i] <10)
                 {
                     one = 0;
                     return digits;
