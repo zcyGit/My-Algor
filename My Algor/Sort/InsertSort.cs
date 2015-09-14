@@ -8,5 +8,10 @@ namespace My_Algor.Sort
 {
     class InsertSort
     {
+
+        public void Test()
+        {
+
+        }
     }
 }
