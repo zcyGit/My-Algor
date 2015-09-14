@@ -11,8 +11,10 @@ namespace My_Algor
     {
         static void Main(string[] args)
         {
-
-            QuickSort.QuickSortTest();
+            Plus_OneMain();
+            //QuickSort.QuickSortTest();
+            //Longest_Substring_Without_Repeating_Characters.Test();
+            Happy_Number.Test();
             Console.ReadLine();
         }
 
@@ -32,7 +34,7 @@ namespace My_Algor
 
         static void Plus_OneMain()
         {
-            int[] dis = new int[] { 9 };
+            int[] dis = new int[] { 8 };
             var res = Plus_One.PlusOne(dis);
 
             Console.WriteLine();

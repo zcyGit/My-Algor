@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LeetCode\Add Two Numbers.cs" />
+    <Compile Include="LeetCode\Happy Number.cs" />
+    <Compile Include="LeetCode\Longest Substring Without Repeating Characters.cs" />
     <Compile Include="LeetCode\Median of Two Sorted Arrays.cs" />
     <Compile Include="LeetCode\Plus One.cs" />
     <Compile Include="LeetCode\Two Sum.cs" />
