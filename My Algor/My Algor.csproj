@@ -60,7 +60,10 @@
     <Compile Include="LeetCode\Happy Number.cs" />
     <Compile Include="LeetCode\Longest Substring Without Repeating Characters.cs" />
     <Compile Include="LeetCode\Median of Two Sorted Arrays.cs" />
+    <Compile Include="LeetCode\N-QueensII.cs" />
+    <Compile Include="LeetCode\N-Queens.cs" />
     <Compile Include="LeetCode\Plus One.cs" />
+    <Compile Include="LeetCode\Remove Duplicates from Sorted List.cs" />
     <Compile Include="LeetCode\Two Sum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

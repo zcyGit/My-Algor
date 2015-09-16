@@ -11,10 +11,13 @@ namespace My_Algor
     {
         static void Main(string[] args)
         {
-            Plus_OneMain();
+            //Plus_OneMain();
             //QuickSort.QuickSortTest();
             //Longest_Substring_Without_Repeating_Characters.Test();
-            Happy_Number.Test();
+            //Remove_Duplicates_from_Sorted_List.Test();
+            //Happy_Number.Test();
+            //N_Queens.Test();
+            N_QueensII.Test();
             Console.ReadLine();
         }
 
