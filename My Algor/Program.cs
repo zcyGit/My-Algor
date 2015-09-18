@@ -17,7 +17,10 @@ namespace My_Algor
             //Remove_Duplicates_from_Sorted_List.Test();
             //Happy_Number.Test();
             //N_Queens.Test();
-            N_QueensII.Test();
+            //N_QueensII.Test();
+            //MergeSort.Test();
+            //Maximum_Depth_of_Binary_Tree.Test();
+            Search_a_2D_Matrix.Test();
             Console.ReadLine();
         }
 
