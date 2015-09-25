@@ -11,6 +11,7 @@
     <AssemblyName>My Algor</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>发布\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,7 +24,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -36,6 +36,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -56,22 +57,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hash\Hash.cs" />
     <Compile Include="LeetCode\Add Two Numbers.cs" />
+    <Compile Include="LeetCode\Count and Say.cs" />
+    <Compile Include="LeetCode\First Missing Positive.cs" />
     <Compile Include="LeetCode\Happy Number.cs" />
     <Compile Include="LeetCode\Longest Substring Without Repeating Characters.cs" />
+    <Compile Include="LeetCode\Binary Tree Level Order Traversal.cs" />
     <Compile Include="LeetCode\Maximum Depth of Binary Tree.cs" />
     <Compile Include="LeetCode\Median of Two Sorted Arrays.cs" />
     <Compile Include="LeetCode\N-QueensII.cs" />
     <Compile Include="LeetCode\N-Queens.cs" />
     <Compile Include="LeetCode\Plus One.cs" />
+    <Compile Include="LeetCode\Power of Two.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List.cs" />
     <Compile Include="LeetCode\Search a 2D Matrix.cs" />
+    <Compile Include="LeetCode\Subsets.cs" />
     <Compile Include="LeetCode\Two Sum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sort\InsertSort.cs" />
     <Compile Include="Sort\MergeSort.cs" />
     <Compile Include="Sort\QuickSort.cs" />
+    <Compile Include="Tree\Binary Tree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -93,6 +101,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

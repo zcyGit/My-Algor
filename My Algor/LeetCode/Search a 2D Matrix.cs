@@ -10,6 +10,7 @@ namespace My_Algor.LeetCode
     /// Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
     ///•Integers in each row are sorted from left to right.
     ///•The first integer of each row is greater than the last integer of the previous row.
+    ///哈哈这个算法实现的速度，居然在leeCode上超越了100%的人
     /// </summary>
     class Search_a_2D_Matrix
     {
@@ -52,7 +53,6 @@ namespace My_Algor.LeetCode
             row = matrix.GetLength(0);
             col = matrix.GetLength(1);
 
-
             int[] begin = new int[] { 1, 1 };
             int[] end = new int[] { row, col };
 
@@ -72,9 +72,7 @@ namespace My_Algor.LeetCode
         /// <returns></returns>
         public static bool BinarySearch(int[,] matrix, int[] begin, int[] middle, int[] end, int target)
         {
-
-
-
+            
             if (begin[0] * col + begin[1] > end[0] * col + end[1])
             {
                 return false;

@@ -20,7 +20,11 @@ namespace My_Algor
             //N_QueensII.Test();
             //MergeSort.Test();
             //Maximum_Depth_of_Binary_Tree.Test();
-            Search_a_2D_Matrix.Test();
+            //Search_a_2D_Matrix.Test();
+            //new My_Algor.Hash.Hash().Test();
+            //Power_of_Two.Test();
+            Count_and_Say.Test();
+
             Console.ReadLine();
         }
 
@@ -29,8 +33,8 @@ namespace My_Algor
 
         static void Median_of_Two_Sorted_ArraysMain()
         {
-            int[] dis = new int[] { 2,3,4};
-            int[] dis2 = new int[] { 1};
+            int[] dis = new int[] { 2, 3, 4 };
+            int[] dis2 = new int[] { 1 };
 
             var res = Median_of_Two_Sorted_Arrays.FindMedianSortedArrays(dis, dis2);
 
