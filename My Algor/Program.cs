@@ -23,7 +23,8 @@ namespace My_Algor
             //Search_a_2D_Matrix.Test();
             //new My_Algor.Hash.Hash().Test();
             //Power_of_Two.Test();
-            Merge_k_Sorted_Lists.Test();
+            //Merge_k_Sorted_Lists.Test();
+            Move_Zeroes.Test();
 
             Console.ReadLine();
         }
