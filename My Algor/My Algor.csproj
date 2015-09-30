@@ -66,6 +66,7 @@
     <Compile Include="LeetCode\Binary Tree Level Order Traversal.cs" />
     <Compile Include="LeetCode\Maximum Depth of Binary Tree.cs" />
     <Compile Include="LeetCode\Median of Two Sorted Arrays.cs" />
+    <Compile Include="LeetCode\Merge k Sorted Lists.cs" />
     <Compile Include="LeetCode\N-QueensII.cs" />
     <Compile Include="LeetCode\N-Queens.cs" />
     <Compile Include="LeetCode\Plus One.cs" />

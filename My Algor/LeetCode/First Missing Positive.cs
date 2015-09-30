@@ -11,14 +11,32 @@ namespace My_Algor.LeetCode
 
         public static void Test()
         {
-            int[] nums = new int[] { 1, 2, 3, 0 };
-            FirstMissingPositive(nums);
+            int[] nums = new int[] { 1, 2, 0 };
+            Console.Write(FirstMissingPositive(nums));
         }
 
         public static int FirstMissingPositive(int[] nums)
         {
+            HashSet<int> hash = new HashSet<int>();
 
-            return 0;
+            if (nums.Length == 0)
+            {
+                return 1;
+            }
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                hash.Add(nums[i]);
+            }
+            int j = 1;
+            for (; j <= nums.Length; j++)
+            {
+                if (!hash.Contains(j))
+                {
+                    return j;
+                }
+            }
+            return j;
         }
 
     }
