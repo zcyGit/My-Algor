@@ -24,7 +24,9 @@ namespace My_Algor
             //new My_Algor.Hash.Hash().Test();
             //Power_of_Two.Test();
             //Merge_k_Sorted_Lists.Test();
-            Move_Zeroes.Test();
+            //Move_Zeroes.Test();
+            //Number_of_1_Bits.Test();
+            Binary_Tree_Preorder_Traversal.Test();
 
             Console.ReadLine();
         }
