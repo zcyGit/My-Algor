@@ -78,6 +78,8 @@
     <Compile Include="LeetCode\Search a 2D Matrix.cs" />
     <Compile Include="LeetCode\Subsets.cs" />
     <Compile Include="LeetCode\Two Sum.cs" />
+    <Compile Include="LeetCode\Valid Anagram.cs" />
+    <Compile Include="LeetCode\Valid Number.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sort\InsertSort.cs" />

@@ -26,8 +26,9 @@ namespace My_Algor
             //Merge_k_Sorted_Lists.Test();
             //Move_Zeroes.Test();
             //Number_of_1_Bits.Test();
-            Binary_Tree_Preorder_Traversal.Test();
-
+            //Binary_Tree_Preorder_Traversal.Test();
+            //Valid_Anagram.Test();
+            Valid_Number.Test();
             Console.ReadLine();
         }
 
