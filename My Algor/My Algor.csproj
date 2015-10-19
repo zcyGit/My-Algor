@@ -80,6 +80,7 @@
     <Compile Include="LeetCode\Two Sum.cs" />
     <Compile Include="LeetCode\Valid Anagram.cs" />
     <Compile Include="LeetCode\Valid Number.cs" />
+    <Compile Include="LeetCode\Valid Sudoku.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sort\InsertSort.cs" />

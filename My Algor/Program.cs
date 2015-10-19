@@ -28,7 +28,8 @@ namespace My_Algor
             //Number_of_1_Bits.Test();
             //Binary_Tree_Preorder_Traversal.Test();
             //Valid_Anagram.Test();
-            Valid_Number.Test();
+            //Valid_Number.Test();
+            Valid_Sudoku.Test();
             Console.ReadLine();
         }
 
