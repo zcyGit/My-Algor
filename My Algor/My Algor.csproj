@@ -57,7 +57,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeTimer.cs" />
     <Compile Include="Hash\Hash.cs" />
+    <Compile Include="LeetCode\3Sum.cs" />
     <Compile Include="LeetCode\Add Two Numbers.cs" />
     <Compile Include="LeetCode\Binary Tree Preorder Traversal.cs" />
     <Compile Include="LeetCode\Count and Say.cs" />
@@ -75,6 +77,7 @@
     <Compile Include="LeetCode\Plus One.cs" />
     <Compile Include="LeetCode\Power of Two.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List.cs" />
+    <Compile Include="LeetCode\Roman to Integer.cs" />
     <Compile Include="LeetCode\Search a 2D Matrix.cs" />
     <Compile Include="LeetCode\Subsets.cs" />
     <Compile Include="LeetCode\Two Sum.cs" />

@@ -11,6 +11,8 @@ namespace My_Algor
     {
         static void Main(string[] args)
         {
+            int iteration = 1;
+
             //Plus_OneMain();
             //QuickSort.QuickSortTest();
             //Longest_Substring_Without_Repeating_Characters.Test();
@@ -29,7 +31,8 @@ namespace My_Algor
             //Binary_Tree_Preorder_Traversal.Test();
             //Valid_Anagram.Test();
             //Valid_Number.Test();
-            Valid_Sudoku.Test();
+            //Roman_to_Integer.Test();
+            CodeTimer.Time("Test", iteration, () => { _3Sum.Test(); });
             Console.ReadLine();
         }
 
