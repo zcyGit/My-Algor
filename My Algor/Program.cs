@@ -11,6 +11,7 @@ namespace My_Algor
     {
         static void Main(string[] args)
         {
+            //执行次数
             int iteration = 1;
 
             //Plus_OneMain();
@@ -32,7 +33,11 @@ namespace My_Algor
             //Valid_Anagram.Test();
             //Valid_Number.Test();
             //Roman_to_Integer.Test();
-            CodeTimer.Time("Test", iteration, () => { _3Sum.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { _3Sum.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Same_Tree.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { ZigZag_Conversion.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Largest_Number.Test(); });
+            CodeTimer.Time("Test", iteration, () => { CandyAlgor.Test(); });            
             Console.ReadLine();
         }
 
