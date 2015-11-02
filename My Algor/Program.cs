@@ -37,7 +37,14 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Same_Tree.Test(); });
             //CodeTimer.Time("Test", iteration, () => { ZigZag_Conversion.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Largest_Number.Test(); });
-            CodeTimer.Time("Test", iteration, () => { CandyAlgor.Test(); });            
+            //CodeTimer.Time("Test", iteration, () => { CandyAlgor.Test(); });        
+            //CodeTimer.Time("Test", iteration, () => { Contains_Duplicate.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Longest_Consecutive_Sequence.Test(); });
+            CodeTimer.Time("Test", iteration, () => { Single_Number.Test(); });      
+
+            
+ 
+    
             Console.ReadLine();
         }
 
