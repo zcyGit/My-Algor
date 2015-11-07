@@ -40,16 +40,47 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { CandyAlgor.Test(); });        
             //CodeTimer.Time("Test", iteration, () => { Contains_Duplicate.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Longest_Consecutive_Sequence.Test(); });
-            CodeTimer.Time("Test", iteration, () => { Single_Number.Test(); });      
+            //CodeTimer.Time("Test", iteration, () => { Single_Number.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Palindrome_Partitioning.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Repeated_DNA_Sequences.Test(); }); 
+
+            //CodeTimer.Time("Test", iteration, () => { Sort_List.Test(); });
+            CodeTimer.Time("Test", iteration, () => { Majority_Element.Test(); }); 
 
             
- 
-    
+            //var WeekName = new string[] { "星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日" };
+            //int value = 16;
+            //string date = string.Empty;
+            //for (var i = 0; i < 7; i++)
+            //{
+
+            //    if ((value & 1 << i) == 1 << i)
+            //    {
+            //        date += WeekName[i];
+            //    }
+            //}
+            //Console.Write(date);
+
+            //new Program().abc();
+
             Console.ReadLine();
         }
 
 
+        public async void abc()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                await prithf(i);
+            }
 
+        }
+
+        public async Task<int> prithf(int i)
+        {
+            Console.Write(i);
+            return 1;
+        }
 
         static void Median_of_Two_Sorted_ArraysMain()
         {

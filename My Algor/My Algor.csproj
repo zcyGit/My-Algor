@@ -71,6 +71,7 @@
     <Compile Include="LeetCode\Longest Consecutive Sequence.cs" />
     <Compile Include="LeetCode\Longest Substring Without Repeating Characters.cs" />
     <Compile Include="LeetCode\Binary Tree Level Order Traversal.cs" />
+    <Compile Include="LeetCode\Majority Element.cs" />
     <Compile Include="LeetCode\Maximum Depth of Binary Tree.cs" />
     <Compile Include="LeetCode\Median of Two Sorted Arrays.cs" />
     <Compile Include="LeetCode\Merge k Sorted Lists.cs" />
@@ -78,13 +79,17 @@
     <Compile Include="LeetCode\N-QueensII.cs" />
     <Compile Include="LeetCode\N-Queens.cs" />
     <Compile Include="LeetCode\Number of 1 Bits.cs" />
+    <Compile Include="LeetCode\Palindrome Partitioning.cs" />
     <Compile Include="LeetCode\Plus One.cs" />
     <Compile Include="LeetCode\Power of Two.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List.cs" />
+    <Compile Include="LeetCode\Repeated DNA Sequences.cs" />
     <Compile Include="LeetCode\Roman to Integer.cs" />
     <Compile Include="LeetCode\Same Tree.cs" />
     <Compile Include="LeetCode\Search a 2D Matrix.cs" />
+    <Compile Include="LeetCode\Single Number III.cs" />
     <Compile Include="LeetCode\Single Number.cs" />
+    <Compile Include="LeetCode\Sort List.cs" />
     <Compile Include="LeetCode\Subsets.cs" />
     <Compile Include="LeetCode\Two Sum.cs" />
     <Compile Include="LeetCode\Valid Anagram.cs" />
