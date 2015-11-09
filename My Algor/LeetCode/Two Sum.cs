@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace My_Algor.LeetCode
 {
-     class Two_Sum
+    /// <summary>
+    /// Given an array of integers, find two numbers such that they add up to a specific target number.
+    ///The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2. Please note that your returned answers (both index1 and index2) are not zero-based.
+
+    ///You may assume that each input would have exactly one solution.
+    /// </summary>
+    class Two_Sum
     {
 
         public int[] TwoSum(int[] nums, int target)
@@ -117,6 +123,12 @@ namespace My_Algor.LeetCode
             return res;
         }
 
+        /// <summary>
+        /// 比较好的解决方法
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <param name="target"></param>
+        /// <returns></returns>
         public static int[] TwoSum2(int[] nums, int target)
         {
             ///两个数相加，不一定越来越大，有可能越来越小啊

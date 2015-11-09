@@ -45,9 +45,17 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Repeated_DNA_Sequences.Test(); }); 
 
             //CodeTimer.Time("Test", iteration, () => { Sort_List.Test(); });
-            CodeTimer.Time("Test", iteration, () => { Majority_Element.Test(); }); 
+            //CodeTimer.Time("Test", iteration, () => { Majority_Element.Test(); }); 
+            //CodeTimer.Time("Test", iteration, () => { Ugly_Number.Test(); }); 
 
-            
+            //CodeTimer.Time("Test", iteration, () => { Integer_to_Roman.Test(); }); 
+
+            CodeTimer.Time("Test", iteration, () => { Product_of_Array_Except_Self.Test(); });
+
+
+
+
+
             //var WeekName = new string[] { "星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日" };
             //int value = 16;
             //string date = string.Empty;

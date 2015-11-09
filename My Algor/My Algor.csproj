@@ -67,6 +67,7 @@
     <Compile Include="LeetCode\Count and Say.cs" />
     <Compile Include="LeetCode\First Missing Positive.cs" />
     <Compile Include="LeetCode\Happy Number.cs" />
+    <Compile Include="LeetCode\Integer to Roman.cs" />
     <Compile Include="LeetCode\Largest Number.cs" />
     <Compile Include="LeetCode\Longest Consecutive Sequence.cs" />
     <Compile Include="LeetCode\Longest Substring Without Repeating Characters.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="LeetCode\Palindrome Partitioning.cs" />
     <Compile Include="LeetCode\Plus One.cs" />
     <Compile Include="LeetCode\Power of Two.cs" />
+    <Compile Include="LeetCode\Product of Array Except Self.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List.cs" />
     <Compile Include="LeetCode\Repeated DNA Sequences.cs" />
     <Compile Include="LeetCode\Roman to Integer.cs" />
@@ -92,6 +94,7 @@
     <Compile Include="LeetCode\Sort List.cs" />
     <Compile Include="LeetCode\Subsets.cs" />
     <Compile Include="LeetCode\Two Sum.cs" />
+    <Compile Include="LeetCode\Ugly Number.cs" />
     <Compile Include="LeetCode\Valid Anagram.cs" />
     <Compile Include="LeetCode\Valid Number.cs" />
     <Compile Include="LeetCode\Valid Sudoku.cs" />
