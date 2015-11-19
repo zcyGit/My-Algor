@@ -268,9 +268,6 @@ namespace My_Algor.LeetCode
             {
                 return false;
             }
-
-
-
         }
     }
 }

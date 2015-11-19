@@ -49,11 +49,13 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Ugly_Number.Test(); }); 
 
             //CodeTimer.Time("Test", iteration, () => { Integer_to_Roman.Test(); }); 
+            //new Program().abc();
 
-            CodeTimer.Time("Test", iteration, () => { Product_of_Array_Except_Self.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Product_of_Array_Except_Self.Test(); });
 
-
-
+            //CodeTimer.Time("Test", iteration, () => { Valid_Palindrome.Test(); }); 
+            //CodeTimer.Time("Test", iteration, () => { The_Skyline_Problem.Test(); });
+            CodeTimer.Time("Test", iteration, () => { Summary_Ranges.Test(); }); 
 
 
             //var WeekName = new string[] { "星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日" };
@@ -75,18 +77,24 @@ namespace My_Algor
         }
 
 
-        public async void abc()
+        public async Task<bool> abc()
         {
             for (int i = 0; i < 5; i++)
             {
-                await prithf(i);
+                 prithf(i);
+                 Console.Write(i);
+
             }
+            return true;
 
         }
 
-        public async Task<int> prithf(int i)
+        public async Task<int> prithf(int j)
         {
-            Console.Write(i);
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write(i);
+            }
             return 1;
         }
 
