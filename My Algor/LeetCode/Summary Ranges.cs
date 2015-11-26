@@ -14,7 +14,7 @@ namespace My_Algor.LeetCode
         /// </summary>
         public static void Test()
         {
-            int[] nums = new int[] { 0 };
+            int[] nums = new int[] { 0, 1, 2, 3, 4, 5, 6, 7 };
 
             var list = SummaryRanges(nums);
 

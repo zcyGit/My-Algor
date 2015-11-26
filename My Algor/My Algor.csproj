@@ -64,9 +64,12 @@
     <Compile Include="LeetCode\Binary Tree Preorder Traversal.cs" />
     <Compile Include="LeetCode\Candy.cs" />
     <Compile Include="LeetCode\Contains Duplicate.cs" />
+    <Compile Include="LeetCode\Convert Sorted Array to Binary Search Tree.cs" />
     <Compile Include="LeetCode\Count and Say.cs" />
     <Compile Include="LeetCode\First Missing Positive.cs" />
     <Compile Include="LeetCode\Happy Number.cs" />
+    <Compile Include="LeetCode\House Robber II.cs" />
+    <Compile Include="LeetCode\House Robber.cs" />
     <Compile Include="LeetCode\Integer to Roman.cs" />
     <Compile Include="LeetCode\Largest Number.cs" />
     <Compile Include="LeetCode\Longest Consecutive Sequence.cs" />

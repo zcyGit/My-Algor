@@ -55,7 +55,12 @@ namespace My_Algor
 
             //CodeTimer.Time("Test", iteration, () => { Valid_Palindrome.Test(); }); 
             //CodeTimer.Time("Test", iteration, () => { The_Skyline_Problem.Test(); });
-            CodeTimer.Time("Test", iteration, () => { Summary_Ranges.Test(); }); 
+            //CodeTimer.Time("Test", iteration, () => { Summary_Ranges.Test(); }); 
+            //CodeTimer.Time("Test", iteration, () => { House_Robber.Test(); }); 
+
+            CodeTimer.Time("Test", iteration, () => { House_RobberII.Test(); }); 
+
+            //CodeTimer.Time("Test", iteration, () => { Convert_Sorted_Array_to_Binary_Search_Tree.Test(); }); 
 
 
             //var WeekName = new string[] { "星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日" };
