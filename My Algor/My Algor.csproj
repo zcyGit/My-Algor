@@ -77,6 +77,7 @@
     <Compile Include="LeetCode\Binary Tree Level Order Traversal.cs" />
     <Compile Include="LeetCode\Majority Element.cs" />
     <Compile Include="LeetCode\Maximum Depth of Binary Tree.cs" />
+    <Compile Include="LeetCode\Maximum Gap.cs" />
     <Compile Include="LeetCode\Median of Two Sorted Arrays.cs" />
     <Compile Include="LeetCode\Merge k Sorted Lists.cs" />
     <Compile Include="LeetCode\Move Zeroes.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="LeetCode\Plus One.cs" />
     <Compile Include="LeetCode\Power of Two.cs" />
     <Compile Include="LeetCode\Product of Array Except Self.cs" />
+    <Compile Include="LeetCode\Remove Duplicates from Sorted List II.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List.cs" />
     <Compile Include="LeetCode\Repeated DNA Sequences.cs" />
     <Compile Include="LeetCode\Roman to Integer.cs" />

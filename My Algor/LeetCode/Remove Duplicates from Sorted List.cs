@@ -28,7 +28,11 @@ namespace My_Algor.LeetCode
 
             var head = DeleteDuplicates(x);
 
-
+            while (head != null)
+            {
+                Console.WriteLine(head.val);
+                head = head.next;
+            }
 
             Console.WriteLine();
         }
