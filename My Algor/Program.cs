@@ -43,42 +43,28 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Single_Number.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Palindrome_Partitioning.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Repeated_DNA_Sequences.Test(); }); 
-
             //CodeTimer.Time("Test", iteration, () => { Sort_List.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Majority_Element.Test(); }); 
             //CodeTimer.Time("Test", iteration, () => { Ugly_Number.Test(); }); 
-
             //CodeTimer.Time("Test", iteration, () => { Integer_to_Roman.Test(); }); 
             //new Program().abc();
-
             //CodeTimer.Time("Test", iteration, () => { Product_of_Array_Except_Self.Test(); });
-
             //CodeTimer.Time("Test", iteration, () => { Valid_Palindrome.Test(); }); 
             //CodeTimer.Time("Test", iteration, () => { The_Skyline_Problem.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Summary_Ranges.Test(); }); 
             //CodeTimer.Time("Test", iteration, () => { House_Robber.Test(); }); 
-
             //CodeTimer.Time("Test", iteration, () => { House_RobberII.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Remove_Duplicates_from_Sorted_ListII.Test(); });
-            CodeTimer.Time("Test", iteration, () => { Maximum_Gap.Test(); }); 
-
+            //CodeTimer.Time("Test", iteration, () => { Maximum_Gap.Test(); }); 
+            //CodeTimer.Time("Test", iteration, () => { _4Sum.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Symmetric_Tree.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Palindrome_Number.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Palindrome_Linked_List.Test(); }); 
             //CodeTimer.Time("Test", iteration, () => { Convert_Sorted_Array_to_Binary_Search_Tree.Test(); }); 
+            //CodeTimer.Time("Test", iteration, () => { Longest_Palindromic_Substring.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Excel_Sheet_Column_Title.Test(); });
 
-
-            //var WeekName = new string[] { "星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日" };
-            //int value = 16;
-            //string date = string.Empty;
-            //for (var i = 0; i < 7; i++)
-            //{
-
-            //    if ((value & 1 << i) == 1 << i)
-            //    {
-            //        date += WeekName[i];
-            //    }
-            //}
-            //Console.Write(date);
-
-            //new Program().abc();
+            CodeTimer.Time("Test", iteration, () => { Gas_Station.Test(); });
 
             Console.ReadLine();
         }
@@ -88,8 +74,8 @@ namespace My_Algor
         {
             for (int i = 0; i < 5; i++)
             {
-                 prithf(i);
-                 Console.Write(i);
+                prithf(i);
+                Console.Write(i);
 
             }
             return true;

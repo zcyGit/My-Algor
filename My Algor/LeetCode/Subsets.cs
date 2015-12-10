@@ -51,9 +51,7 @@ namespace My_Algor.LeetCode
         /// <returns></returns>
         public static IList<IList<int>> Subsets(int[] nums)
         {
-
             return GetSubByNumber(nums, nums.Length);
-
         }
 
 

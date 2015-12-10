@@ -29,7 +29,7 @@ namespace My_Algor.Tree
         {
 
             //代表节点个数，根节点为1
-            int i = 2;
+            int i = 1;
             TreeNode Node = root;
 
             //当前父节点编号
@@ -43,13 +43,13 @@ namespace My_Algor.Tree
             while (i < list.Count)
             {
                 //添加左节点
-                Node.left = new TreeNode(list[i - 1]);
+                Node.left = new TreeNode(list[i]);
                 nodes.Add(Node.left);
                 i++;
                 //添加右节点
                 if (i < list.Count)
                 {
-                    Node.right = new TreeNode(list[i - 1]);
+                    Node.right = new TreeNode(list[i]);
                     nodes.Add(Node.right);
                     i++;
                 }

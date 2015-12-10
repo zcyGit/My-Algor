@@ -59,13 +59,17 @@
   <ItemGroup>
     <Compile Include="CodeTimer.cs" />
     <Compile Include="Hash\Hash.cs" />
+    <Compile Include="LeetCode\4Sum.cs" />
     <Compile Include="LeetCode\3Sum.cs" />
     <Compile Include="LeetCode\Add Two Numbers.cs" />
     <Compile Include="LeetCode\Binary Tree Preorder Traversal.cs" />
     <Compile Include="LeetCode\Candy.cs" />
+    <Compile Include="LeetCode\Gas Station.cs" />
+    <Compile Include="LeetCode\Insert Interval.cs" />
     <Compile Include="LeetCode\Contains Duplicate.cs" />
     <Compile Include="LeetCode\Convert Sorted Array to Binary Search Tree.cs" />
     <Compile Include="LeetCode\Count and Say.cs" />
+    <Compile Include="LeetCode\Excel Sheet Column Title.cs" />
     <Compile Include="LeetCode\First Missing Positive.cs" />
     <Compile Include="LeetCode\Happy Number.cs" />
     <Compile Include="LeetCode\House Robber II.cs" />
@@ -84,6 +88,9 @@
     <Compile Include="LeetCode\N-QueensII.cs" />
     <Compile Include="LeetCode\N-Queens.cs" />
     <Compile Include="LeetCode\Number of 1 Bits.cs" />
+    <Compile Include="LeetCode\Palindrome Linked List.cs" />
+    <Compile Include="LeetCode\Palindrome Number.cs" />
+    <Compile Include="LeetCode\Longest Palindromic Substring.cs" />
     <Compile Include="LeetCode\Palindrome Partitioning.cs" />
     <Compile Include="LeetCode\Plus One.cs" />
     <Compile Include="LeetCode\Power of Two.cs" />
@@ -99,6 +106,7 @@
     <Compile Include="LeetCode\Sort List.cs" />
     <Compile Include="LeetCode\Subsets.cs" />
     <Compile Include="LeetCode\Summary Ranges.cs" />
+    <Compile Include="LeetCode\Symmetric Tree.cs" />
     <Compile Include="LeetCode\The Skyline Problem.cs" />
     <Compile Include="LeetCode\Two Sum.cs" />
     <Compile Include="LeetCode\Ugly Number.cs" />

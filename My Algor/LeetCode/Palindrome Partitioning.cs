@@ -103,7 +103,6 @@ namespace My_Algor.LeetCode
 
                     PartitionRecursive(s, begin + 1, innerList, palindrome_map);
 
-
                 }
                 begin++;
 
