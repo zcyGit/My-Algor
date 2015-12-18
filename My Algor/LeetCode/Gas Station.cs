@@ -27,6 +27,7 @@ namespace My_Algor.LeetCode
 
         /// <summary>
         /// 更优的解法 http://www.cnblogs.com/felixfang/p/3814463.html 
+        /// 当前只是枚举所有可能性
         /// </summary>
         /// <param name="gas"></param>
         /// <param name="cost"></param>

@@ -63,8 +63,12 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Convert_Sorted_Array_to_Binary_Search_Tree.Test(); }); 
             //CodeTimer.Time("Test", iteration, () => { Longest_Palindromic_Substring.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Excel_Sheet_Column_Title.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Gas_Station.Test(); });            
+            //CodeTimer.Time("Test", iteration, () => { Ugly_NumberII.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Valid_Parentheses.Test(); });
+            CodeTimer.Time("Test", iteration, () => { Sliding_Window_Maximum.Test(); });
 
-            CodeTimer.Time("Test", iteration, () => { Gas_Station.Test(); });
+            Console.Write("1234".IndexOf("5"));
 
             Console.ReadLine();
         }
