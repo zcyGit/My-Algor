@@ -64,6 +64,7 @@
     <Compile Include="LeetCode\Add Two Numbers.cs" />
     <Compile Include="LeetCode\Binary Tree Preorder Traversal.cs" />
     <Compile Include="LeetCode\Candy.cs" />
+    <Compile Include="LeetCode\Excel Sheet Column Number.cs" />
     <Compile Include="LeetCode\Gas Station.cs" />
     <Compile Include="LeetCode\Insert Interval.cs" />
     <Compile Include="LeetCode\Contains Duplicate.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="LeetCode\House Robber.cs" />
     <Compile Include="LeetCode\Integer to Roman.cs" />
     <Compile Include="LeetCode\Largest Number.cs" />
+    <Compile Include="LeetCode\Largest Rectangle in Histogram.cs" />
     <Compile Include="LeetCode\Longest Consecutive Sequence.cs" />
     <Compile Include="LeetCode\Longest Substring Without Repeating Characters.cs" />
     <Compile Include="LeetCode\Binary Tree Level Order Traversal.cs" />
@@ -98,6 +100,8 @@
     <Compile Include="LeetCode\Remove Duplicates from Sorted List II.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List.cs" />
     <Compile Include="LeetCode\Repeated DNA Sequences.cs" />
+    <Compile Include="LeetCode\Reverse Linked List.cs" />
+    <Compile Include="LeetCode\Reverse Linked List II.cs" />
     <Compile Include="LeetCode\Roman to Integer.cs" />
     <Compile Include="LeetCode\Same Tree.cs" />
     <Compile Include="LeetCode\Search a 2D Matrix.cs" />

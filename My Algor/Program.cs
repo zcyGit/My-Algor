@@ -66,7 +66,15 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Gas_Station.Test(); });            
             //CodeTimer.Time("Test", iteration, () => { Ugly_NumberII.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Valid_Parentheses.Test(); });
-            CodeTimer.Time("Test", iteration, () => { Sliding_Window_Maximum.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Sliding_Window_Maximum.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Largest_Rectangle_in_Histogram.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Excel_Sheet_Column_Number.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Reverse_Linked_List.Test(); });
+
+            CodeTimer.Time("Test", iteration, () => { Reverse_Linked_List_II.Test(); });
+
+
+
 
             Console.Write("1234".IndexOf("5"));
 
