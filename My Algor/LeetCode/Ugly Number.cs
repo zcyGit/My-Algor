@@ -35,8 +35,7 @@ namespace My_Algor.LeetCode
             {
                 return true;
             }
-
-
+            
             while ((num & 1) == 0) num /= 2;
             while (num % 3 == 0) num /= 3;
             while (num % 5 == 0) num /= 5;

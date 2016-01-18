@@ -70,13 +70,13 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Largest_Rectangle_in_Histogram.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Excel_Sheet_Column_Number.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Reverse_Linked_List.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Reverse_Linked_List_II.Test(); });
 
-            CodeTimer.Time("Test", iteration, () => { Reverse_Linked_List_II.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Single_Number_III.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Find_the_Duplicate_Number.Test(); });Power_of_Three
+            //CodeTimer.Time("Test", iteration, () => { Power_of_Three.Test(); });
 
-
-
-
-            Console.Write("1234".IndexOf("5"));
+            CodeTimer.Time("Test", iteration, () => { Unique_Binary_Search_Trees.Test(); });            
 
             Console.ReadLine();
         }

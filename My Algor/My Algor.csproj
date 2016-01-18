@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CodeTimer.cs" />
+    <Compile Include="Cycle detection\Cycle detection.cs" />
     <Compile Include="Hash\Hash.cs" />
     <Compile Include="LeetCode\4Sum.cs" />
     <Compile Include="LeetCode\3Sum.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="LeetCode\Binary Tree Preorder Traversal.cs" />
     <Compile Include="LeetCode\Candy.cs" />
     <Compile Include="LeetCode\Excel Sheet Column Number.cs" />
+    <Compile Include="LeetCode\Find the Duplicate Number.cs" />
     <Compile Include="LeetCode\Gas Station.cs" />
     <Compile Include="LeetCode\Insert Interval.cs" />
     <Compile Include="LeetCode\Contains Duplicate.cs" />
@@ -89,12 +91,14 @@
     <Compile Include="LeetCode\Move Zeroes.cs" />
     <Compile Include="LeetCode\N-QueensII.cs" />
     <Compile Include="LeetCode\N-Queens.cs" />
+    <Compile Include="LeetCode\Nim Game.cs" />
     <Compile Include="LeetCode\Number of 1 Bits.cs" />
     <Compile Include="LeetCode\Palindrome Linked List.cs" />
     <Compile Include="LeetCode\Palindrome Number.cs" />
     <Compile Include="LeetCode\Longest Palindromic Substring.cs" />
     <Compile Include="LeetCode\Palindrome Partitioning.cs" />
     <Compile Include="LeetCode\Plus One.cs" />
+    <Compile Include="LeetCode\Power of Three.cs" />
     <Compile Include="LeetCode\Power of Two.cs" />
     <Compile Include="LeetCode\Product of Array Except Self.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List II.cs" />
@@ -116,6 +120,7 @@
     <Compile Include="LeetCode\Two Sum.cs" />
     <Compile Include="LeetCode\Ugly NumberII.cs" />
     <Compile Include="LeetCode\Ugly Number.cs" />
+    <Compile Include="LeetCode\Unique Binary Search Trees.cs" />
     <Compile Include="LeetCode\Valid Anagram.cs" />
     <Compile Include="LeetCode\Valid Number.cs" />
     <Compile Include="LeetCode\Valid Palindrome.cs" />
