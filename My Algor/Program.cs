@@ -76,7 +76,12 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Find_the_Duplicate_Number.Test(); });Power_of_Three
             //CodeTimer.Time("Test", iteration, () => { Power_of_Three.Test(); });
 
-            CodeTimer.Time("Test", iteration, () => { Unique_Binary_Search_Trees.Test(); });            
+            //CodeTimer.Time("Test", iteration, () => { Unique_Binary_Search_Trees.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Delete_Node_in_a_Linked_List.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Burst_Balloons.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Reverse_Integer.Test(); });    
+            //CodeTimer.Time("Test", iteration, () => { Super_Ugly_Number.Test(); }); 
+            CodeTimer.Time("Test", iteration, () => { Invert_Binary_Tree.Test(); }); 
 
             Console.ReadLine();
         }

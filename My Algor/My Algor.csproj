@@ -64,7 +64,9 @@
     <Compile Include="LeetCode\3Sum.cs" />
     <Compile Include="LeetCode\Add Two Numbers.cs" />
     <Compile Include="LeetCode\Binary Tree Preorder Traversal.cs" />
+    <Compile Include="LeetCode\Burst Balloons.cs" />
     <Compile Include="LeetCode\Candy.cs" />
+    <Compile Include="LeetCode\Delete Node in a Linked List.cs" />
     <Compile Include="LeetCode\Excel Sheet Column Number.cs" />
     <Compile Include="LeetCode\Find the Duplicate Number.cs" />
     <Compile Include="LeetCode\Gas Station.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="LeetCode\House Robber II.cs" />
     <Compile Include="LeetCode\House Robber.cs" />
     <Compile Include="LeetCode\Integer to Roman.cs" />
+    <Compile Include="LeetCode\Invert Binary Tree.cs" />
     <Compile Include="LeetCode\Largest Number.cs" />
     <Compile Include="LeetCode\Largest Rectangle in Histogram.cs" />
     <Compile Include="LeetCode\Longest Consecutive Sequence.cs" />
@@ -104,6 +107,7 @@
     <Compile Include="LeetCode\Remove Duplicates from Sorted List II.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List.cs" />
     <Compile Include="LeetCode\Repeated DNA Sequences.cs" />
+    <Compile Include="LeetCode\Reverse Integer.cs" />
     <Compile Include="LeetCode\Reverse Linked List.cs" />
     <Compile Include="LeetCode\Reverse Linked List II.cs" />
     <Compile Include="LeetCode\Roman to Integer.cs" />
@@ -118,6 +122,7 @@
     <Compile Include="LeetCode\Symmetric Tree.cs" />
     <Compile Include="LeetCode\The Skyline Problem.cs" />
     <Compile Include="LeetCode\Two Sum.cs" />
+    <Compile Include="LeetCode\Super Ugly Number.cs" />
     <Compile Include="LeetCode\Ugly NumberII.cs" />
     <Compile Include="LeetCode\Ugly Number.cs" />
     <Compile Include="LeetCode\Unique Binary Search Trees.cs" />

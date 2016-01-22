@@ -14,7 +14,7 @@ namespace My_Algor.LeetCode
 
         public static void Test()
         {
-            int x = 2147483647;
+            int x = -2147483648;
             Console.Write(IsPalindrome(x));
 
         }
