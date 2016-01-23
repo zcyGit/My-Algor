@@ -91,6 +91,7 @@
     <Compile Include="LeetCode\Maximum Gap.cs" />
     <Compile Include="LeetCode\Median of Two Sorted Arrays.cs" />
     <Compile Include="LeetCode\Merge k Sorted Lists.cs" />
+    <Compile Include="LeetCode\Missing Number.cs" />
     <Compile Include="LeetCode\Move Zeroes.cs" />
     <Compile Include="LeetCode\N-QueensII.cs" />
     <Compile Include="LeetCode\N-Queens.cs" />

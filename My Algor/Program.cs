@@ -81,7 +81,8 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Burst_Balloons.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Reverse_Integer.Test(); });    
             //CodeTimer.Time("Test", iteration, () => { Super_Ugly_Number.Test(); }); 
-            CodeTimer.Time("Test", iteration, () => { Invert_Binary_Tree.Test(); }); 
+            //CodeTimer.Time("Test", iteration, () => { Invert_Binary_Tree.Test(); });
+            CodeTimer.Time("Test", iteration, () => { Missing_Number.Test(); }); 
 
             Console.ReadLine();
         }
