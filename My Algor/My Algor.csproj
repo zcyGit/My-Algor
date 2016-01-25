@@ -11,6 +11,7 @@
     <AssemblyName>My Algor</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>发布\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,7 +24,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -36,6 +36,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -56,13 +57,88 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeTimer.cs" />
+    <Compile Include="Cycle detection\Cycle detection.cs" />
+    <Compile Include="Hash\Hash.cs" />
+    <Compile Include="LeetCode\4Sum.cs" />
+    <Compile Include="LeetCode\3Sum.cs" />
     <Compile Include="LeetCode\Add Two Numbers.cs" />
+    <Compile Include="LeetCode\Binary Tree Preorder Traversal.cs" />
+    <Compile Include="LeetCode\Burst Balloons.cs" />
+    <Compile Include="LeetCode\Candy.cs" />
+    <Compile Include="LeetCode\Delete Node in a Linked List.cs" />
+    <Compile Include="LeetCode\Excel Sheet Column Number.cs" />
+    <Compile Include="LeetCode\Find the Duplicate Number.cs" />
+    <Compile Include="LeetCode\Gas Station.cs" />
+    <Compile Include="LeetCode\Insert Interval.cs" />
+    <Compile Include="LeetCode\Contains Duplicate.cs" />
+    <Compile Include="LeetCode\Convert Sorted Array to Binary Search Tree.cs" />
+    <Compile Include="LeetCode\Count and Say.cs" />
+    <Compile Include="LeetCode\Excel Sheet Column Title.cs" />
+    <Compile Include="LeetCode\First Missing Positive.cs" />
+    <Compile Include="LeetCode\Happy Number.cs" />
+    <Compile Include="LeetCode\House Robber II.cs" />
+    <Compile Include="LeetCode\House Robber.cs" />
+    <Compile Include="LeetCode\Integer to Roman.cs" />
+    <Compile Include="LeetCode\Invert Binary Tree.cs" />
+    <Compile Include="LeetCode\Largest Number.cs" />
+    <Compile Include="LeetCode\Largest Rectangle in Histogram.cs" />
+    <Compile Include="LeetCode\Longest Consecutive Sequence.cs" />
+    <Compile Include="LeetCode\Longest Substring Without Repeating Characters.cs" />
+    <Compile Include="LeetCode\Binary Tree Level Order Traversal.cs" />
+    <Compile Include="LeetCode\Majority Element.cs" />
+    <Compile Include="LeetCode\Maximum Depth of Binary Tree.cs" />
+    <Compile Include="LeetCode\Maximum Gap.cs" />
     <Compile Include="LeetCode\Median of Two Sorted Arrays.cs" />
+    <Compile Include="LeetCode\Merge k Sorted Lists.cs" />
+    <Compile Include="LeetCode\Missing Number.cs" />
+    <Compile Include="LeetCode\Move Zeroes.cs" />
+    <Compile Include="LeetCode\N-QueensII.cs" />
+    <Compile Include="LeetCode\N-Queens.cs" />
+    <Compile Include="LeetCode\Nim Game.cs" />
+    <Compile Include="LeetCode\Number of 1 Bits.cs" />
+    <Compile Include="LeetCode\Palindrome Linked List.cs" />
+    <Compile Include="LeetCode\Palindrome Number.cs" />
+    <Compile Include="LeetCode\Longest Palindromic Substring.cs" />
+    <Compile Include="LeetCode\Palindrome Partitioning.cs" />
     <Compile Include="LeetCode\Plus One.cs" />
+    <Compile Include="LeetCode\Power of Three.cs" />
+    <Compile Include="LeetCode\Power of Two.cs" />
+    <Compile Include="LeetCode\Product of Array Except Self.cs" />
+    <Compile Include="LeetCode\Remove Duplicates from Sorted List II.cs" />
+    <Compile Include="LeetCode\Remove Duplicates from Sorted List.cs" />
+    <Compile Include="LeetCode\Repeated DNA Sequences.cs" />
+    <Compile Include="LeetCode\Reverse Integer.cs" />
+    <Compile Include="LeetCode\Reverse Linked List.cs" />
+    <Compile Include="LeetCode\Reverse Linked List II.cs" />
+    <Compile Include="LeetCode\Roman to Integer.cs" />
+    <Compile Include="LeetCode\Same Tree.cs" />
+    <Compile Include="LeetCode\Search a 2D Matrix.cs" />
+    <Compile Include="LeetCode\Single Number III.cs" />
+    <Compile Include="LeetCode\Single Number.cs" />
+    <Compile Include="LeetCode\Sliding Window Maximum.cs" />
+    <Compile Include="LeetCode\Sort List.cs" />
+    <Compile Include="LeetCode\Subsets.cs" />
+    <Compile Include="LeetCode\Summary Ranges.cs" />
+    <Compile Include="LeetCode\Symmetric Tree.cs" />
+    <Compile Include="LeetCode\The Skyline Problem.cs" />
     <Compile Include="LeetCode\Two Sum.cs" />
+    <Compile Include="LeetCode\Super Ugly Number.cs" />
+    <Compile Include="LeetCode\Ugly NumberII.cs" />
+    <Compile Include="LeetCode\Ugly Number.cs" />
+    <Compile Include="LeetCode\Unique Binary Search Trees.cs" />
+    <Compile Include="LeetCode\Valid Anagram.cs" />
+    <Compile Include="LeetCode\Valid Number.cs" />
+    <Compile Include="LeetCode\Valid Palindrome.cs" />
+    <Compile Include="LeetCode\Valid Parentheses.cs" />
+    <Compile Include="LeetCode\Valid Sudoku.cs" />
+    <Compile Include="LeetCode\ZigZag Conversion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sort\InsertSort.cs" />
+    <Compile Include="Sort\MergeSort.cs" />
     <Compile Include="Sort\QuickSort.cs" />
+    <Compile Include="Tree\Binary Tree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -84,6 +160,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
