@@ -64,6 +64,7 @@
     <Compile Include="LeetCode\3Sum.cs" />
     <Compile Include="LeetCode\Add Two Numbers.cs" />
     <Compile Include="LeetCode\Binary Tree Preorder Traversal.cs" />
+    <Compile Include="LeetCode\Bulb Switcher.cs" />
     <Compile Include="LeetCode\Burst Balloons.cs" />
     <Compile Include="LeetCode\Candy.cs" />
     <Compile Include="LeetCode\Delete Node in a Linked List.cs" />
@@ -87,8 +88,10 @@
     <Compile Include="LeetCode\Longest Substring Without Repeating Characters.cs" />
     <Compile Include="LeetCode\Binary Tree Level Order Traversal.cs" />
     <Compile Include="LeetCode\Majority Element.cs" />
+    <Compile Include="LeetCode\Max Points on a Line.cs" />
     <Compile Include="LeetCode\Maximum Depth of Binary Tree.cs" />
     <Compile Include="LeetCode\Maximum Gap.cs" />
+    <Compile Include="LeetCode\Maximum Product of Word Lengths.cs" />
     <Compile Include="LeetCode\Median of Two Sorted Arrays.cs" />
     <Compile Include="LeetCode\Merge k Sorted Lists.cs" />
     <Compile Include="LeetCode\Missing Number.cs" />
@@ -97,6 +100,7 @@
     <Compile Include="LeetCode\N-Queens.cs" />
     <Compile Include="LeetCode\Nim Game.cs" />
     <Compile Include="LeetCode\Number of 1 Bits.cs" />
+    <Compile Include="LeetCode\OddEvenList.cs" />
     <Compile Include="LeetCode\Palindrome Linked List.cs" />
     <Compile Include="LeetCode\Palindrome Number.cs" />
     <Compile Include="LeetCode\Longest Palindromic Substring.cs" />
@@ -107,6 +111,7 @@
     <Compile Include="LeetCode\Product of Array Except Self.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List II.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List.cs" />
+    <Compile Include="LeetCode\Reorder List.cs" />
     <Compile Include="LeetCode\Repeated DNA Sequences.cs" />
     <Compile Include="LeetCode\Reverse Integer.cs" />
     <Compile Include="LeetCode\Reverse Linked List.cs" />
@@ -114,6 +119,7 @@
     <Compile Include="LeetCode\Roman to Integer.cs" />
     <Compile Include="LeetCode\Same Tree.cs" />
     <Compile Include="LeetCode\Search a 2D Matrix.cs" />
+    <Compile Include="LeetCode\Search in Rotated Sorted Array.cs" />
     <Compile Include="LeetCode\Single Number III.cs" />
     <Compile Include="LeetCode\Single Number.cs" />
     <Compile Include="LeetCode\Sliding Window Maximum.cs" />

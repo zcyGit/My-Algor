@@ -82,7 +82,15 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Reverse_Integer.Test(); });    
             //CodeTimer.Time("Test", iteration, () => { Super_Ugly_Number.Test(); }); 
             //CodeTimer.Time("Test", iteration, () => { Invert_Binary_Tree.Test(); });
-            CodeTimer.Time("Test", iteration, () => { Missing_Number.Test(); }); 
+            //CodeTimer.Time("Test", iteration, () => { Missing_Number.Test(); }); 
+            //CodeTimer.Time("Test", iteration, () => { Search_in_Rotated_Sorted_Array.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Odd_Even_List.Test(); });
+
+            //CodeTimer.Time("Test", iteration, () => { Reorder_List.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Max_Points_on_a_Line.Test(); });
+            CodeTimer.Time("Test", iteration, () => { Maximum_Product_of_Word_Lengths.Test(); });
+
+
 
             Console.ReadLine();
         }
