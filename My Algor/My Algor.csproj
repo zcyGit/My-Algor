@@ -70,6 +70,8 @@
     <Compile Include="LeetCode\Delete Node in a Linked List.cs" />
     <Compile Include="LeetCode\Excel Sheet Column Number.cs" />
     <Compile Include="LeetCode\Find the Duplicate Number.cs" />
+    <Compile Include="LeetCode\Divide Two Integers.cs" />
+    <Compile Include="LeetCode\Fraction to Recurring Decimal.cs" />
     <Compile Include="LeetCode\Gas Station.cs" />
     <Compile Include="LeetCode\Insert Interval.cs" />
     <Compile Include="LeetCode\Contains Duplicate.cs" />
@@ -124,6 +126,7 @@
     <Compile Include="LeetCode\Single Number.cs" />
     <Compile Include="LeetCode\Sliding Window Maximum.cs" />
     <Compile Include="LeetCode\Sort List.cs" />
+    <Compile Include="LeetCode\String to Integer %28atoi%29.cs" />
     <Compile Include="LeetCode\Subsets.cs" />
     <Compile Include="LeetCode\Summary Ranges.cs" />
     <Compile Include="LeetCode\Symmetric Tree.cs" />

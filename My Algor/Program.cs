@@ -88,7 +88,11 @@ namespace My_Algor
 
             //CodeTimer.Time("Test", iteration, () => { Reorder_List.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Max_Points_on_a_Line.Test(); });
-            CodeTimer.Time("Test", iteration, () => { Maximum_Product_of_Word_Lengths.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Maximum_Product_of_Word_Lengths.Test(); });
+
+            //CodeTimer.Time("Test", iteration, () => { String_to_Integer_atoi.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Fraction_to_Recurring_Decimal.Test(); });
+            CodeTimer.Time("Test", iteration, () => { Divide_Two_Integer.Test(); });
 
 
 
