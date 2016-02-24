@@ -89,6 +89,7 @@
     <Compile Include="LeetCode\Longest Consecutive Sequence.cs" />
     <Compile Include="LeetCode\Longest Substring Without Repeating Characters.cs" />
     <Compile Include="LeetCode\Binary Tree Level Order Traversal.cs" />
+    <Compile Include="LeetCode\LRU Cache.cs" />
     <Compile Include="LeetCode\Majority Element.cs" />
     <Compile Include="LeetCode\Max Points on a Line.cs" />
     <Compile Include="LeetCode\Maximum Depth of Binary Tree.cs" />

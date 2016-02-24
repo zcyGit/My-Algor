@@ -92,12 +92,27 @@ namespace My_Algor
 
             //CodeTimer.Time("Test", iteration, () => { String_to_Integer_atoi.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Fraction_to_Recurring_Decimal.Test(); });
-            CodeTimer.Time("Test", iteration, () => { Divide_Two_Integer.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Divide_Two_Integer.Test(); });
+
+
+            CodeTimer.Time("Test", iteration, () => { LURTEST(); });
 
 
 
             Console.ReadLine();
         }
+
+        static void LURTEST()
+        {
+
+            LRUCache lur = new LRUCache(1101);
+
+            for (int i = 0; i < 1000000; i++)
+            {
+                lur.Set(i, i);
+            }
+            lur.Get(3000);
+        } 
 
 
         public async Task<bool> abc()
