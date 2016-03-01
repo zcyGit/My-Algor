@@ -93,8 +93,10 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Binary_Tree_Inorder_Traversal.Test(); });
 
             //CodeTimer.Time("Test", iteration, () => { Swap_Nodes_in_Pairs.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Word_Break.Test(); });
 
-            CodeTimer.Time("Test", iteration, () => { Word_Break.Test(); });
+            CodeTimer.Time("Test", iteration, () => { Word_Pattern.Test(); });
+
 
 
 

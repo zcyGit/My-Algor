@@ -145,6 +145,7 @@
     <Compile Include="LeetCode\Valid Parentheses.cs" />
     <Compile Include="LeetCode\Valid Sudoku.cs" />
     <Compile Include="LeetCode\Word Break.cs" />
+    <Compile Include="LeetCode\Word Pattern.cs" />
     <Compile Include="LeetCode\ZigZag Conversion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
