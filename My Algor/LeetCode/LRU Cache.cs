@@ -53,7 +53,7 @@ namespace My_Algor.LeetCode
             DLinkedNode post = node.post;
 
             pre.post = post;
-            post.pre = pre;
+            post.pre = pre;  
         }
 
         /// <summary>

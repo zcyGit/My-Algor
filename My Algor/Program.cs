@@ -71,11 +71,9 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Excel_Sheet_Column_Number.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Reverse_Linked_List.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Reverse_Linked_List_II.Test(); });
-
             //CodeTimer.Time("Test", iteration, () => { Single_Number_III.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Find_the_Duplicate_Number.Test(); });Power_of_Three
             //CodeTimer.Time("Test", iteration, () => { Power_of_Three.Test(); });
-
             //CodeTimer.Time("Test", iteration, () => { Unique_Binary_Search_Trees.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Delete_Node_in_a_Linked_List.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Burst_Balloons.Test(); });
@@ -85,17 +83,18 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Missing_Number.Test(); }); 
             //CodeTimer.Time("Test", iteration, () => { Search_in_Rotated_Sorted_Array.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Odd_Even_List.Test(); });
-
             //CodeTimer.Time("Test", iteration, () => { Reorder_List.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Max_Points_on_a_Line.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Maximum_Product_of_Word_Lengths.Test(); });
-
             //CodeTimer.Time("Test", iteration, () => { String_to_Integer_atoi.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Fraction_to_Recurring_Decimal.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Divide_Two_Integer.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { LURTEST(); });
+            //CodeTimer.Time("Test", iteration, () => { Binary_Tree_Inorder_Traversal.Test(); });
 
+            //CodeTimer.Time("Test", iteration, () => { Swap_Nodes_in_Pairs.Test(); });
 
-            CodeTimer.Time("Test", iteration, () => { LURTEST(); });
+            CodeTimer.Time("Test", iteration, () => { Word_Break.Test(); });
 
 
 
@@ -112,7 +111,7 @@ namespace My_Algor
                 lur.Set(i, i);
             }
             lur.Get(3000);
-        } 
+        }
 
 
         public async Task<bool> abc()

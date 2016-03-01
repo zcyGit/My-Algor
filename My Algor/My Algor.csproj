@@ -63,6 +63,7 @@
     <Compile Include="LeetCode\4Sum.cs" />
     <Compile Include="LeetCode\3Sum.cs" />
     <Compile Include="LeetCode\Add Two Numbers.cs" />
+    <Compile Include="LeetCode\Binary Tree Inorder Traversal.cs" />
     <Compile Include="LeetCode\Binary Tree Preorder Traversal.cs" />
     <Compile Include="LeetCode\Bulb Switcher.cs" />
     <Compile Include="LeetCode\Burst Balloons.cs" />
@@ -130,6 +131,7 @@
     <Compile Include="LeetCode\String to Integer %28atoi%29.cs" />
     <Compile Include="LeetCode\Subsets.cs" />
     <Compile Include="LeetCode\Summary Ranges.cs" />
+    <Compile Include="LeetCode\Swap Nodes in Pairs.cs" />
     <Compile Include="LeetCode\Symmetric Tree.cs" />
     <Compile Include="LeetCode\The Skyline Problem.cs" />
     <Compile Include="LeetCode\Two Sum.cs" />
@@ -142,6 +144,7 @@
     <Compile Include="LeetCode\Valid Palindrome.cs" />
     <Compile Include="LeetCode\Valid Parentheses.cs" />
     <Compile Include="LeetCode\Valid Sudoku.cs" />
+    <Compile Include="LeetCode\Word Break.cs" />
     <Compile Include="LeetCode\ZigZag Conversion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
