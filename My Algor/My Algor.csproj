@@ -74,6 +74,7 @@
     <Compile Include="LeetCode\Divide Two Integers.cs" />
     <Compile Include="LeetCode\Fraction to Recurring Decimal.cs" />
     <Compile Include="LeetCode\Gas Station.cs" />
+    <Compile Include="LeetCode\Gray Code.cs" />
     <Compile Include="LeetCode\Insert Interval.cs" />
     <Compile Include="LeetCode\Contains Duplicate.cs" />
     <Compile Include="LeetCode\Convert Sorted Array to Binary Search Tree.cs" />
@@ -131,6 +132,7 @@
     <Compile Include="LeetCode\String to Integer %28atoi%29.cs" />
     <Compile Include="LeetCode\Subsets.cs" />
     <Compile Include="LeetCode\Summary Ranges.cs" />
+    <Compile Include="LeetCode\Surrounded Regions.cs" />
     <Compile Include="LeetCode\Swap Nodes in Pairs.cs" />
     <Compile Include="LeetCode\Symmetric Tree.cs" />
     <Compile Include="LeetCode\The Skyline Problem.cs" />

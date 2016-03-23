@@ -95,10 +95,17 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Swap_Nodes_in_Pairs.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Word_Break.Test(); });
 
-            CodeTimer.Time("Test", iteration, () => { Word_Pattern.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Word_Pattern.Test(); });Gray_Code
+            //CodeTimer.Time("Test", iteration, () => { Gray_Code.Test(); });
+
+            CodeTimer.Time("Test", iteration, () => { Surrounded_Regions.Test(); });           
 
 
-
+            //var now = DateTime.Now;
+            //int period = now.Year * 100 + now.Month - 1;
+            //DateTime dtTarget = now.AddMonths(-1);
+            //DateTime FirstDay = dtTarget.AddDays(-dtTarget.Day + 1);
+            //DateTime LastDay = dtTarget.AddMonths(1).AddDays(-dtTarget.AddMonths(1).Day);
 
             Console.ReadLine();
         }
