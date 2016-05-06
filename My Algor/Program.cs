@@ -98,9 +98,17 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Word_Pattern.Test(); });Gray_Code
             //CodeTimer.Time("Test", iteration, () => { Gray_Code.Test(); });
 
-            CodeTimer.Time("Test", iteration, () => { Surrounded_Regions.Test(); });           
+            //CodeTimer.Time("Test", iteration, () => { Surrounded_Regions.Test(); });
+            CodeTimer.Time("Test", iteration, () => { _3Sum_Closest.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { NumberToWords.Test(); });
+
+            //CodeTimer.Time("Test", iteration, () => { Reverse_Words_in_a_String.Test(); });
+
+            //CodeTimer.Time("Test", iteration, () => { Permutations.Test(); });         
 
 
+
+            
             //var now = DateTime.Now;
             //int period = now.Year * 100 + now.Month - 1;
             //DateTime dtTarget = now.AddMonths(-1);

@@ -60,6 +60,7 @@
     <Compile Include="CodeTimer.cs" />
     <Compile Include="Cycle detection\Cycle detection.cs" />
     <Compile Include="Hash\Hash.cs" />
+    <Compile Include="LeetCode\3Sum Closest.cs" />
     <Compile Include="LeetCode\4Sum.cs" />
     <Compile Include="LeetCode\3Sum.cs" />
     <Compile Include="LeetCode\Add Two Numbers.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="LeetCode\Longest Consecutive Sequence.cs" />
     <Compile Include="LeetCode\Longest Substring Without Repeating Characters.cs" />
     <Compile Include="LeetCode\Binary Tree Level Order Traversal.cs" />
+    <Compile Include="LeetCode\Lowest Common Ancestor of a Binary Search Tree.cs" />
     <Compile Include="LeetCode\LRU Cache.cs" />
     <Compile Include="LeetCode\Majority Element.cs" />
     <Compile Include="LeetCode\Max Points on a Line.cs" />
@@ -105,11 +107,13 @@
     <Compile Include="LeetCode\N-Queens.cs" />
     <Compile Include="LeetCode\Nim Game.cs" />
     <Compile Include="LeetCode\Number of 1 Bits.cs" />
+    <Compile Include="LeetCode\NumberToWords.cs" />
     <Compile Include="LeetCode\OddEvenList.cs" />
     <Compile Include="LeetCode\Palindrome Linked List.cs" />
     <Compile Include="LeetCode\Palindrome Number.cs" />
     <Compile Include="LeetCode\Longest Palindromic Substring.cs" />
     <Compile Include="LeetCode\Palindrome Partitioning.cs" />
+    <Compile Include="LeetCode\Permutations.cs" />
     <Compile Include="LeetCode\Plus One.cs" />
     <Compile Include="LeetCode\Power of Three.cs" />
     <Compile Include="LeetCode\Power of Two.cs" />
@@ -121,6 +125,7 @@
     <Compile Include="LeetCode\Reverse Integer.cs" />
     <Compile Include="LeetCode\Reverse Linked List.cs" />
     <Compile Include="LeetCode\Reverse Linked List II.cs" />
+    <Compile Include="LeetCode\Reverse Words in a String.cs" />
     <Compile Include="LeetCode\Roman to Integer.cs" />
     <Compile Include="LeetCode\Same Tree.cs" />
     <Compile Include="LeetCode\Search a 2D Matrix.cs" />
