@@ -69,6 +69,7 @@
     <Compile Include="LeetCode\Bulb Switcher.cs" />
     <Compile Include="LeetCode\Burst Balloons.cs" />
     <Compile Include="LeetCode\Candy.cs" />
+    <Compile Include="LeetCode\Container With Most Water.cs" />
     <Compile Include="LeetCode\Delete Node in a Linked List.cs" />
     <Compile Include="LeetCode\Excel Sheet Column Number.cs" />
     <Compile Include="LeetCode\Find the Duplicate Number.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="LeetCode\Invert Binary Tree.cs" />
     <Compile Include="LeetCode\Largest Number.cs" />
     <Compile Include="LeetCode\Largest Rectangle in Histogram.cs" />
+    <Compile Include="LeetCode\Length of Last Word.cs" />
     <Compile Include="LeetCode\Longest Consecutive Sequence.cs" />
     <Compile Include="LeetCode\Longest Substring Without Repeating Characters.cs" />
     <Compile Include="LeetCode\Binary Tree Level Order Traversal.cs" />
@@ -101,6 +103,7 @@
     <Compile Include="LeetCode\Maximum Product of Word Lengths.cs" />
     <Compile Include="LeetCode\Median of Two Sorted Arrays.cs" />
     <Compile Include="LeetCode\Merge k Sorted Lists.cs" />
+    <Compile Include="LeetCode\Minimum Path Sum.cs" />
     <Compile Include="LeetCode\Missing Number.cs" />
     <Compile Include="LeetCode\Move Zeroes.cs" />
     <Compile Include="LeetCode\N-QueensII.cs" />
@@ -115,14 +118,17 @@
     <Compile Include="LeetCode\Palindrome Partitioning.cs" />
     <Compile Include="LeetCode\Permutations.cs" />
     <Compile Include="LeetCode\Plus One.cs" />
+    <Compile Include="LeetCode\Pow.cs" />
     <Compile Include="LeetCode\Power of Three.cs" />
     <Compile Include="LeetCode\Power of Two.cs" />
     <Compile Include="LeetCode\Product of Array Except Self.cs" />
+    <Compile Include="LeetCode\Regular Expression Matching.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List II.cs" />
     <Compile Include="LeetCode\Remove Duplicates from Sorted List.cs" />
     <Compile Include="LeetCode\Reorder List.cs" />
     <Compile Include="LeetCode\Repeated DNA Sequences.cs" />
     <Compile Include="LeetCode\Reverse Integer.cs" />
+    <Compile Include="LeetCode\Remove Nth Node From End of List.cs" />
     <Compile Include="LeetCode\Reverse Linked List.cs" />
     <Compile Include="LeetCode\Reverse Linked List II.cs" />
     <Compile Include="LeetCode\Reverse Words in a String.cs" />
@@ -134,6 +140,7 @@
     <Compile Include="LeetCode\Single Number.cs" />
     <Compile Include="LeetCode\Sliding Window Maximum.cs" />
     <Compile Include="LeetCode\Sort List.cs" />
+    <Compile Include="LeetCode\Sqrt%28x%29.cs" />
     <Compile Include="LeetCode\String to Integer %28atoi%29.cs" />
     <Compile Include="LeetCode\Subsets.cs" />
     <Compile Include="LeetCode\Summary Ranges.cs" />
@@ -146,6 +153,7 @@
     <Compile Include="LeetCode\Ugly NumberII.cs" />
     <Compile Include="LeetCode\Ugly Number.cs" />
     <Compile Include="LeetCode\Unique Binary Search Trees.cs" />
+    <Compile Include="LeetCode\Unique Paths.cs" />
     <Compile Include="LeetCode\Valid Anagram.cs" />
     <Compile Include="LeetCode\Valid Number.cs" />
     <Compile Include="LeetCode\Valid Palindrome.cs" />
@@ -153,6 +161,7 @@
     <Compile Include="LeetCode\Valid Sudoku.cs" />
     <Compile Include="LeetCode\Word Break.cs" />
     <Compile Include="LeetCode\Word Pattern.cs" />
+    <Compile Include="LeetCode\Word Search.cs" />
     <Compile Include="LeetCode\ZigZag Conversion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -181,7 +190,11 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

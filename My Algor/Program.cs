@@ -91,24 +91,24 @@ namespace My_Algor
             //CodeTimer.Time("Test", iteration, () => { Divide_Two_Integer.Test(); });
             //CodeTimer.Time("Test", iteration, () => { LURTEST(); });
             //CodeTimer.Time("Test", iteration, () => { Binary_Tree_Inorder_Traversal.Test(); });
-
             //CodeTimer.Time("Test", iteration, () => { Swap_Nodes_in_Pairs.Test(); });
             //CodeTimer.Time("Test", iteration, () => { Word_Break.Test(); });
-
             //CodeTimer.Time("Test", iteration, () => { Word_Pattern.Test(); });Gray_Code
             //CodeTimer.Time("Test", iteration, () => { Gray_Code.Test(); });
-
             //CodeTimer.Time("Test", iteration, () => { Surrounded_Regions.Test(); });
-            CodeTimer.Time("Test", iteration, () => { _3Sum_Closest.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { _3Sum_Closest.Test(); });
             //CodeTimer.Time("Test", iteration, () => { NumberToWords.Test(); });
-
             //CodeTimer.Time("Test", iteration, () => { Reverse_Words_in_a_String.Test(); });
-
             //CodeTimer.Time("Test", iteration, () => { Permutations.Test(); });         
+            //CodeTimer.Time("Test", iteration, () => { Minimum_Path_Sum.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Regular_Expression_Matching.Test(); });       
+            //CodeTimer.Time("Test", iteration, () => { Word_Search.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Unique_Paths.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Length_of_Last_Word.Test(); });
+            //CodeTimer.Time("Test", iteration, () => { Container_With_Most_Water.Test(); });
+            CodeTimer.Time("Test", iteration, () => { Remove_Nth_Node_From_End_of_List.Test(); });
 
-
-
-            
+            //Sqrt_x_.Test();
             //var now = DateTime.Now;
             //int period = now.Year * 100 + now.Month - 1;
             //DateTime dtTarget = now.AddMonths(-1);
